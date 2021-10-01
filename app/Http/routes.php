@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return 'Nur Widya Anisa Muslim';
-});
+    return view('index');
+})->name('homepage');
